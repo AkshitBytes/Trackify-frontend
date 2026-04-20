@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://localhost:5000/api',
+  baseURL: 'https://trackify-backend-7si7.onrender.com/api',
 });
 
 // Add a request interceptor
